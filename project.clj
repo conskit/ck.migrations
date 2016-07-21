@@ -1,5 +1,5 @@
 (defproject ck.migrations "0.1.0-SNAPSHOT"
-  :description "FIXME: ck.migrations module for Conskit"
+  :description "Database Migrations module for Conskit"
   :url "https://website.com/example/ck.migrations"
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
