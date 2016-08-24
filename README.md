@@ -64,6 +64,6 @@ where `config` here is the configuration with the database and possibly other se
 
 ## License
 
-Copyright © 2016 Your Name
+Copyright © 2016 Jason Murphy
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
