@@ -53,7 +53,8 @@ If Flywaydb is not your cup of tea you can always implement your own provider by
 ```clojure
 (defmethod migrate!* :my-special-provider
   [{:keys [config]}]
-  ;; logic))
+  ;; logic
+  )
   
 ;; Within service init
 (migrate! :my-special-provider :database)
