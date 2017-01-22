@@ -1,4 +1,4 @@
-(defproject ck.migrations "1.0.0-rc1"
+(defproject ck.migrations "1.0.0"
   :description "Database Migrations module for Conskit"
   :url "https://github.com/conskit/ck.migrations"
   :license {:name "Apache License, Version 2.0"
