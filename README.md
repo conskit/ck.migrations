@@ -60,10 +60,10 @@ If Flywaydb is not your cup of tea you can always implement your own provider by
 (migrate! :my-special-provider :database)
 ```
 
-where `config` here is the configuration with the database and possibly other settings (basically anything under the key specified).
+where `config` here is the configuration with the database and possibly other settings i.e. basically anything under the key specified (see `flyway/ck/migrations/flyway.clj` for an example).
 
 ## License
 
-Copyright © 2016 Your Name
+Copyright © 2016 Jason Murphy
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
