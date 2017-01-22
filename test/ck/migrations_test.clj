@@ -30,7 +30,7 @@
    [:ConfigService get-in-config]]
   (init [this context]
         (register-controllers! [my-controller])
-        (migrate! :flyway :database)
+        (migrate! :flyway (get-in-config [:database]))
         context)
   (get-result [this]
               (j/query (get-in-config [:database])

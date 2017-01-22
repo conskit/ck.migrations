@@ -8,11 +8,11 @@
 
 (defprotocol CKMigration
   "Migration Functions"
-  (migrate! [this provider config-key]))
+  (migrate! [this provider config]))
 
 (defservice
   migrations CKMigration
-  [[:ConfigService get-in-config]]
-  (migrate! [this provider config-key]
+  []
+  (migrate! [this provider config]
             (migrate!* {:provider provider
-                        :config (get-in-config [config-key])})))
+                        :config config})))
